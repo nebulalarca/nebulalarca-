@@ -1,36 +1,41 @@
 # example-repo
-Bu repo, Global AI Hub bootcamplerinde template olarak kullanmanız amacıyla tasarlanmıştır. Bootcampler dahilinde oluşturacağınız reponun bunun gibi görünmesi gerekmektedir. Ek olarak, projenizin görünürlüğünü GitHub üzerinde **Public** olarak ayarlamalısınız.
 
 # Giriş
 
-Reponuzda şu anda okumakta olduğunuz gibi bir README.md dosyanız bulunmalıdır. Burada kısaca hangi veri setini seçtiniz, hangi algoritmalarla neler yaptınız vs. gibi projenizi anlatan kısa bilgilendirmeler olmalı. 
+ çok heyecanlı bir şekikde bu projeye katılmış bulunmaktayım ve deep learning olayların hakim olmak istemekteyim bu yaptığım proje ise beni heyecanlandırdı. Kaggle ve github1ı anlamış ve nasıl proje yapabileceğimi anlamış oldum. bu veri seti ile birlikte bu yazdığım projede, doğrudan Stanford Cars Dataset’i temel aldım.
+ u dataset toplamda 196 farklı araba marka ve modeli içermekte bunlar;
 
-Projenizin teknik anlatımını ise, notebook dosyalarınızın içerisinde, markdown formatındaki hücrelerde yapmalısınız. Sadece hücrelerden, veya sadece hücreler ve onların çıktılarından oluşan notebooklar yeterli değil.
+Acura Integra Type R 2001
+Aston Martin DB9 Coupe 2012
+Audi S4 Sedan 2007
+BMW M3 Coupe 2012
+Chevrolet Corvette Convertible 2012
+Ferrari 458 Italia Coupe 2012
+Ford F-150 Regular Cab 2012
+Honda Odyssey Minivan 2012
+Lamborghini Aventador Coupe 2012
+Mercedes-Benz C-Class Sedan 2012
+Nissan Leaf Hatchback 2012
+Porsche Panamera Sedan 2012
+Toyota Camry Sedan 2012
+Volkswagen Beetle Hatchback 2012
+ve daha yüzlerce model...
 
 # Metrikler
 
-Projenizde gerçekleştirdiğiniz çalışma sonucunda, ne gibi sonuçlar elde ettiğinizi ve bu sonuçları nasıl yorumladığınızı da anlatmanızı bekliyoruz. Artık ChatGPT, Gemini, Deepseek vb. araçları kullanarak zaten kolayca kod yazdırabiliyorsunuz.
+Accuracy=80006400​=0.8⇒80% (bilgisayarımın performansından mütevellik bazı problemler yaşadım birkaç kez doğrulamak için farklı kaynaklardan kontrol sağladım ilk proje olması sebebiyle problemler yaşanmış olabilir)
 
-Bu noktada, yalnızca bir kod yazmış olmanıza değil yazdığınız kodu anlamış, sindirmiş olmanıza da önem veriyoruz. Bu anlamda, yaptığınız çalışmayı yorumlayabilmeniz de bizim için önemli. 
 
 # Ekler
 
-Projeniz kapsamında deployment, end-to-end GPU gibi ekstra çalışmaları da eklerseniz, onları anlatmak için de bu şekilde ayrı bir bölüm eklemenizi bekleriz.
-
-Örneğin, repoda UI adında bir klasör daha var. Streamlit ile projeyi deploy edebilmeniz için örnek bir script içeriyor.
-
-**Dikkat: Klasörün içindeki notebook, supervised ve unsupervised notebooklarından farklı. Ancak sizin projenizde, supervised ve (eğer yapmayı tercih ederseniz) unsupervised notebooklarınızı deploy ediyor olacaksınız, farklı bir notebook gerekmiyor.**
+Bu projede modeli GPU üzerinde eğittim, ancak basit bir CNN kullandığım için doğruluk oranı beklediğim kadar yüksek çıkmadı. Repoda yer alan UI klasörü ile kullanıcılar Streamlit üzerinden araba resmi yükleyip tahmin alabiliyor. Gelecekte modelin doğruluğunu artırmak ve deployment’ı iyileştirmek için transfer learning veya web servisi entegrasyonu yapılabilir
 
 # Sonuç ve Gelecek Çalışmalar
 
-Burası da, yaptığınız çalışma ile ilgili nasıl bir gelecek hayal ettiğinizi gösteren bir bölüm olacak. Unutmayın, buraya koyduğunuz proje bootcampten sonra da sizinle kalmaya devam edecek. Her zaman için yeni bölümler ekleyebilir, değişiklikler yapabilir ve projenizi daha güzel hale getirebilirsiniz. 
-
-Projenizi geliştirirken sonrası için şunu düşünün, nasıl daha kaliteli hale getirilebilir? Arayüz mü eklenmeli? Veri toplama aşaması dinamik, gerçek zamanlı mı yapılmalı? Gelecekte öğrenmek istediğiniz teknolojiler ve kariyerinize vermek istediğiniz yön için yazarak düşünmeniz size de belirleyici olacaktır.
+ilk projem olduğu için başarabileceklerimin çok sınırlı olduğunu düşünerek ilerledim fakat ilerleyen zamanlarda düzenli olarak bu projeyi develope etmek ve daha fazlasını yapmak için çalışmak istiyorum.
 
 # Linkler
 
-Çalışmanıza ait tüm Kaggle linklerini mutlaka burada görmeliyiz.
-
-https://www.kaggle.com/code/goker67/decision-trees-acc-metrics-feature-selection
-
-https://www.kaggle.com/code/goker67/everything-on-gpu-ml-with-cuml-polars-cupy
+https://www.kaggle.com/melisdemirli
+https://www.kaggle.com/datasets/jutrera/stanford-car-dataset-by-classes-folder
+https://www.kaggle.com/code/melisdemirli/car-dataset-akbank-global-ai-hub-deep-learning-set
