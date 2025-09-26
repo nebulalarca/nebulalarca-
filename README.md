@@ -1,4 +1,4 @@
-# example-repo
+Akbank Deep learning 101
 
 # Giriş
 
